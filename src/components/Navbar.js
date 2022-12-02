@@ -1,18 +1,41 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Navbar() {
-    let [nav, setNav] = useState(['About','Portfolio','Contact','Resume'])
+function Navbar({ currentPage, handlePageChange }) {
     return (
-        <div className='main-container'>
-            <div className='container'>
-                <div className='navbar'>
-                    <h3>{nav[0]}</h3>
-                    <h3>{nav[1]}</h3>
-                    <h3>{nav[2]}</h3>
-                    <h3>{nav[3]}</h3>
-                </div>
-            </div>
-        </div>
+                <ul className='navbar-nav text-decoration-none d-flex justify-content-around'>
+                    <li className='nav-item'>
+                        <a 
+                            className='nav-link'
+                            href='#'
+                            onClick={() => handlePageChange('About')}>
+                            About
+                        </a>
+                    </li>
+                    <li className='nav-item'>
+                        <a 
+                            className='nav-link'
+                            href='#'
+                            onClick={() => handlePageChange('Portfolio')}>
+                        Portfolio
+                        </a>
+                    </li>
+                    <li className='nav-item'>
+                        <a 
+                            className='nav-link'
+                            href='#'
+                            onClick={() => handlePageChange('Contact')}>
+                        Contact
+                        </a>
+                    </li>
+                    <li className='nav-item'>
+                        <a 
+                            className='nav-link'
+                            href='#'
+                            onClick={() => handlePageChange('Resume')}>
+                        Resume
+                        </a>
+                    </li>
+                </ul>
     )
 }
 
