@@ -7,5 +7,7 @@ function Hello() {
         <div className='container'>
             <h2>{message}</h2>
         </div>
-    )
+    );
 }
+
+export default Hello;
