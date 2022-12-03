@@ -16,7 +16,7 @@ function Navbar({ currentPage, handlePageChange }) {
                             className='nav-link'
                             href='#'
                             onClick={() => handlePageChange('Portfolio')}>
-                        Portfolio
+                            Portfolio
                         </a>
                     </li>
                     <li className='nav-item'>
@@ -24,7 +24,7 @@ function Navbar({ currentPage, handlePageChange }) {
                             className='nav-link'
                             href='#'
                             onClick={() => handlePageChange('Contact')}>
-                        Contact
+                            Contact
                         </a>
                     </li>
                     <li className='nav-item'>
@@ -32,7 +32,7 @@ function Navbar({ currentPage, handlePageChange }) {
                             className='nav-link'
                             href='#'
                             onClick={() => handlePageChange('Resume')}>
-                        Resume
+                            Resume
                         </a>
                     </li>
                 </ul>

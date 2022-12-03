@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Footer() {
-    const [footer, setFooter] = useState(['Github','LinkedIn','StackOverflow'])
-
     return (
         <div className='footer'>
-            {footer[0]}
-            {footer[1]}
-            {footer[2]}
+            <footer href='#'>Github</footer>
+            <footer href='#'>LinkedIn</footer>
         </div>
     )
 }
