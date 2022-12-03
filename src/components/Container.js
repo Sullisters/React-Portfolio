@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import React, { useState} from 'react';
+import Header from './Header';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
-export default function Container() {
+function Container() {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
@@ -21,9 +24,11 @@ export default function Container() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <>
+            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
-        </div>
+        </>
     );
 }
+
+export default Container;
