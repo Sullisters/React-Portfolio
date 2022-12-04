@@ -10,13 +10,20 @@ function Resume() {
                 Download PDF:
             </a>
             <h4>Front End:</h4>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id urna porta, lobortis ex a, ornare diam. Sed malesuada mi id pretium bibendum. Morbi finibus tortor ac felis aliquam fermentum. Morbi gravida tempus elit. Etiam velit tellus, dignissim id quam vitae, egestas tempus turpis. Aenean a interdum tortor. Vivamus vulputate commodo leo, eget commodo eros pulvinar id. Cras scelerisque porta scelerisque.
-            </p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
             <h4>Back End:</h4>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id urna porta, lobortis ex a, ornare diam. Sed malesuada mi id pretium bibendum. Morbi finibus tortor ac felis aliquam fermentum. Morbi gravida tempus elit. Etiam velit tellus, dignissim id quam vitae, egestas tempus turpis. Aenean a interdum tortor. Vivamus vulputate commodo leo, eget commodo eros pulvinar id. Cras scelerisque porta scelerisque.
-            </p>
+            <ul>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>GraphSQL</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+            </ul>
         </>
     )
 }

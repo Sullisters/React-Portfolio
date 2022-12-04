@@ -30,35 +30,51 @@ function Contact() {
 
     return (
         <>
-            <h3>Contact Me:</h3>
-            <a href='#'>Heatonpschreiber@gmail.com</a>
-            <form className='form'>
-                <input
-                    value={email}
-                    name='email'
-                    type='email'
-                    placeholder='email'
-                    onChange={handleInputChange}
-                />
-                <input
-                    value={name}
-                    name='name'
-                    type='text'
-                    placeholder='name'
-                    onChange={handleInputChange}
-                />
-                <input
-                    value={message}
-                    name='message'
-                    type='text'
-                    placeholder='insert message here'
-                    onChange={handleInputChange}
-                />
-                <button
+            
+            <form className='form col-7'>
+                <h3>Contact Me @<a href='#'>Heatonpschreiber@gmail.com</a></h3>
+                <div class="row">
+                    <div className='col'>
+                        <label>Email:</label>
+                        <input
+                            value={email}
+                            name='email'
+                            type='email'
+                            placeholder='email'
+                            onChange={handleInputChange}
+                            className='form-control'
+                        />
+                    </div>
+                    <div className='col'>
+                        <label>Name:</label>
+                        <input
+                            value={name}
+                            name='name'
+                            type='text'
+                            placeholder='name'
+                            onChange={handleInputChange}
+                            className='form-control'
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea
+                        value={message}
+                        name='message'
+                        type='text'
+                        placeholder='insert message here'
+                        onChange={handleInputChange}
+                        className='form-control'
+                        rows='4'
+                    />
+                    <button
                     type='button'
+                    className='btn btn-outline-light mt-2'
                     onClick={handleFormSubmit}>
                         Submit Message
                     </button>
+                </div>
             </form>
         </>
     )
