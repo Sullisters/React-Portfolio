@@ -3,8 +3,8 @@ import React from 'react';
 function Footer() {
     return (
         <div className='footer'>
-            <footer href='#'>Github</footer>
-            <footer href='#'>LinkedIn</footer>
+            <a target='_blank' href='https://github.com/Sullisters'>Github</a>
+            <a target='_blank' href='https://www.linkedin.com/in/philip-schreiber-811106202/'>LinkedIn</a>
         </div>
     )
 }

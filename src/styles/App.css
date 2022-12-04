@@ -1,0 +1,10 @@
+* {
+    margin: 0.5vw;
+    padding: 0.5vw;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-family: Helvetica;
+}

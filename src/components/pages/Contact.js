@@ -31,6 +31,7 @@ function Contact() {
     return (
         <>
             <h3>Contact Me:</h3>
+            <a href='#'>Heatonpschreiber@gmail.com</a>
             <form className='form'>
                 <input
                     value={email}

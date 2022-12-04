@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import Header from './Header';
+import Navbar from './Navbar';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -15,7 +15,7 @@ function Container() {
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
-        if (currentPage === 'Resume') {
+        if (currentPage === 'Contact') {
             return <Contact />;
         }
         return <Resume />;
@@ -25,8 +25,13 @@ function Container() {
 
     return (
         <>
-            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-            {renderPage()}
+            <div className='jumbotron jumbotron-fluid'>
+                <div className='display-4'>
+                    Schreiber
+                    <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
+                </div>
+                {renderPage()}
+            </div>
         </>
     );
 }

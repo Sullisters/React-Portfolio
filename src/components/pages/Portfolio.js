@@ -1,15 +1,15 @@
 import React from 'react';
+import Project from './Project';
 
 function Portfolio() {
     const portfolio = 'Portfolio'
-    const box = 'placeholder'
     return (
         <>
             <h1>{portfolio}</h1>
-            <div className='box'>{box}</div>
-            <div className='box'>{box}</div>
-            <div className='box'>{box}</div>
-            <div className='box'>{box}</div>
+            <div className='box'><Project/></div>
+            <div className='box'><Project/></div>
+            <div className='box'><Project/></div>
+            <div className='box'><Project/></div>
         </>
     )
 }
