@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/schreiber-portfolio/static/css/main.5698326a.css",
+    "main.js": "/schreiber-portfolio/static/js/main.7890d7ca.js",
+    "static/media/80B7DE0A-E3A0-454D-9E08-64827AA0489E.jpeg": "/schreiber-portfolio/static/media/80B7DE0A-E3A0-454D-9E08-64827AA0489E.c562b94ecb20a3e5b3fc.jpeg",
+    "static/media/TradeWizard.JPG": "/schreiber-portfolio/static/media/TradeWizard.89f792e4e09f6cf935a4.JPG",
+    "static/media/BirdBrain.JPG": "/schreiber-portfolio/static/media/BirdBrain.2e94fbf32b88ba136909.JPG",
+    "static/media/TechBlog.JPG": "/schreiber-portfolio/static/media/TechBlog.d82b44cb530737eaf708.JPG",
+    "static/media/NoteTaker.JPG": "/schreiber-portfolio/static/media/NoteTaker.5ca70b06f316915f1be1.JPG",
+    "index.html": "/schreiber-portfolio/index.html",
+    "main.5698326a.css.map": "/schreiber-portfolio/static/css/main.5698326a.css.map",
+    "main.7890d7ca.js.map": "/schreiber-portfolio/static/js/main.7890d7ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5698326a.css",
+    "static/js/main.7890d7ca.js"
+  ]
+}
