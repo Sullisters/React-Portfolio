@@ -25,13 +25,11 @@ function Container() {
 
     return (
         <>
-            <div className='jumbotron jumbotron-fluid'>
                 <div className='display-4'>
                     Schreiber
                     <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
                 </div>
                 {renderPage()}
-            </div>
         </>
     );
 }
