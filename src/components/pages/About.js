@@ -14,7 +14,7 @@ function About() {
                         About
                     </h1>
                     <p>
-                    Hello! I am Philip. I've been drawing and working with technology for over a decade. I gradated from University with a BFA in Illustration. I wanted to work on changing my life and decided to attend the Univeristy of Washington Full Stack Web Dev Bootcamp.
+                    Hello! I am Philip. I've been drawing and working with technology for over a decade. I graduated from University with a BFA in Illustration. I wanted to work on changing my life and decided to attend the Univeristy of Washington Full Stack Web Dev Bootcamp.
 
                     More to come!
                     </p>

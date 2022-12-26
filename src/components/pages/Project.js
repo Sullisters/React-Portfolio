@@ -29,10 +29,10 @@ function Project() {
     const projects = [tradeWizard, birdBrain, techBlog, noteTaker]
     return (
         <div className='d-flex row'>
-            <div className='col'>{projects[0]}</div>
-            <div className='col'>{projects[1]}</div>
-            <div className='col'>{projects[2]}</div>
-            <div className='col'>{projects[3]}</div>
+            <div className='col d-flex justify-content-center'>{projects[0]}</div>
+            <div className='col d-flex justify-content-center'>{projects[1]}</div>
+            <div className='col d-flex justify-content-center'>{projects[2]}</div>
+            <div className='col d-flex justify-content-center'>{projects[3]}</div>
         </div>
     );
 }
