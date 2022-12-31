@@ -6,7 +6,7 @@ function About() {
         <div className='container-fluid'>
             <div className='row'>
                 <div className='col'>
-                    <img src={require('file:///C:/Users/music/Downloads/80B7DE0A-E3A0-454D-9E08-64827AA0489E.jpeg')} alt='' className='profile'></img>
+                    {/* <img src={require('file:///C:/Users/music/Downloads/80B7DE0A-E3A0-454D-9E08-64827AA0489E.jpeg')} alt='' className='profile'></img> */}
                 </div>
             
                 <div className='col-7'>
